@@ -6,6 +6,7 @@
       <class name="Test.Pim_Test">
         <methods>
           <include name="setup"/>
+          <include name="teardown"/>
           <include name="enterId_search_text_box"/>
         </methods>
       </class> <!-- Test.Pim_Test -->

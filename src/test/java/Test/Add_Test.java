@@ -60,6 +60,11 @@ import TestBase.TestBase;
 			Add.Back_button();
 		}
 		
+		@Test (priority=6)
+		public void Contactdetails() {
+			Add.add_Contact_details();
+		}
+		
 		@AfterSuite
 		public void teardown() {
 		closure();

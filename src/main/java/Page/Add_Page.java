@@ -61,6 +61,9 @@ public class Add_Page  extends TestBase{
 	@FindBy(css="input[value='Back']")
 	WebElement back_btn;
 	
+	@FindBy(css="input[name='Contact Details']")
+	WebElement Contact_details;
+	
 
 	public void Enterdata_usernametextbox(String uname)
 	{
@@ -139,6 +142,10 @@ public class Add_Page  extends TestBase{
 		public void Back_button()
 		{
 			back_btn.click();
+		}
+		
+		public void addContact_details(){
+			Contact_details
 		}
 
 	public void login(String uname,String password) {

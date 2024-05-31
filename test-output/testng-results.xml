@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-30T20:34:22 IST" name="Default suite" finished-at="2024-05-30T20:34:35 IST" duration-ms="13324">
+  <suite started-at="2024-05-31T10:45:12 IST" name="Default suite" finished-at="2024-05-31T10:45:19 IST" duration-ms="7253">
     <groups>
     </groups>
-    <test started-at="2024-05-30T20:34:22 IST" name="Default test" finished-at="2024-05-30T20:34:35 IST" duration-ms="13324">
+    <test started-at="2024-05-31T10:45:12 IST" name="Default test" finished-at="2024-05-31T10:45:19 IST" duration-ms="7253">
       <class name="Test.Pim_Test">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Test.Pim_Test@58cbafc2]" started-at="2024-05-30T20:34:19 IST" name="setup" finished-at="2024-05-30T20:34:22 IST" duration-ms="3146" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.Pim_Test@75d3a5e0]" started-at="2024-05-31T10:45:10 IST" name="setup" finished-at="2024-05-31T10:45:12 IST" duration-ms="1898" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Login_TestCase_Without_Enteringdata()[pri:1, instance:Test.Pim_Test@58cbafc2]" started-at="2024-05-30T20:34:22 IST" name="Login_TestCase_Without_Enteringdata" finished-at="2024-05-30T20:34:22 IST" duration-ms="82" status="PASS">
+        <test-method signature="Login_TestCase_Without_Enteringdata()[pri:1, instance:Test.Pim_Test@75d3a5e0]" started-at="2024-05-31T10:45:12 IST" name="Login_TestCase_Without_Enteringdata" finished-at="2024-05-31T10:45:12 IST" duration-ms="92" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_TestCase_Without_Enteringdata -->
-        <test-method signature="Login_TestCase_valid_username_valid_password()[pri:2, instance:Test.Pim_Test@58cbafc2]" started-at="2024-05-30T20:34:22 IST" name="Login_TestCase_valid_username_valid_password" finished-at="2024-05-30T20:34:30 IST" duration-ms="8136" status="PASS">
+        <test-method signature="Login_TestCase_valid_username_valid_password()[pri:2, instance:Test.Pim_Test@75d3a5e0]" started-at="2024-05-31T10:45:12 IST" name="Login_TestCase_valid_username_valid_password" finished-at="2024-05-31T10:45:16 IST" duration-ms="4547" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_TestCase_valid_username_valid_password -->
-        <test-method signature="Perform_Pim()[pri:3, instance:Test.Pim_Test@58cbafc2]" started-at="2024-05-30T20:34:30 IST" name="Perform_Pim" finished-at="2024-05-30T20:34:30 IST" duration-ms="296" status="PASS">
+        <test-method signature="Perform_Pim()[pri:3, instance:Test.Pim_Test@75d3a5e0]" started-at="2024-05-31T10:45:16 IST" name="Perform_Pim" finished-at="2024-05-31T10:45:17 IST" duration-ms="267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Perform_Pim -->
-        <test-method signature="Switch_to_iframe_Acess_selectdrop_id()[pri:4, instance:Test.Pim_Test@58cbafc2]" started-at="2024-05-30T20:34:30 IST" name="Switch_to_iframe_Acess_selectdrop_id" finished-at="2024-05-30T20:34:35 IST" duration-ms="4335" status="PASS">
+        <test-method signature="Switch_to_iframe_Acess_selectdrop_id()[pri:4, instance:Test.Pim_Test@75d3a5e0]" started-at="2024-05-31T10:45:17 IST" name="Switch_to_iframe_Acess_selectdrop_id" finished-at="2024-05-31T10:45:19 IST" duration-ms="1944" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Switch_to_iframe_Acess_selectdrop_id -->
-        <test-method signature="enterId_search_text_box()[pri:5, instance:Test.Pim_Test@58cbafc2]" started-at="2024-05-30T20:34:35 IST" name="enterId_search_text_box" finished-at="2024-05-30T20:34:35 IST" duration-ms="410" status="FAIL">
+        <test-method signature="enterId_search_text_box()[pri:5, instance:Test.Pim_Test@75d3a5e0]" started-at="2024-05-31T10:45:19 IST" name="enterId_search_text_box" finished-at="2024-05-31T10:45:19 IST" duration-ms="346" status="FAIL">
           <exception class="org.openqa.selenium.UnhandledAlertException">
             <message>
               <![CDATA[unexpected alert open: {Alert text : Select the field to search!}
@@ -35,9 +35,9 @@
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [46606fc9cdc21e6ce53f0a710069f393, findElement {using=xpath, value=//input[@value='1123']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.113, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\shubh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56112}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56112/devtoo..., se:cdpVersion: 125.0.6422.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 46606fc9cdc21e6ce53f0a710069f393]]>
+Command: [b091726e5f0807abf6656d1c38fcb530, findElement {using=xpath, value=//input[@value='1123']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.113, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\shubh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51133}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51133/devtoo..., se:cdpVersion: 125.0.6422.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b091726e5f0807abf6656d1c38fcb530]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Select the field to search!}
@@ -45,9 +45,9 @@ Session ID: 46606fc9cdc21e6ce53f0a710069f393]]>
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [46606fc9cdc21e6ce53f0a710069f393, findElement {using=xpath, value=//input[@value='1123']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.113, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\shubh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56112}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56112/devtoo..., se:cdpVersion: 125.0.6422.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 46606fc9cdc21e6ce53f0a710069f393
+Command: [b091726e5f0807abf6656d1c38fcb530, findElement {using=xpath, value=//input[@value='1123']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.113, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\shubh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51133}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51133/devtoo..., se:cdpVersion: 125.0.6422.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b091726e5f0807abf6656d1c38fcb530
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
@@ -60,7 +60,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy11.click(Unknown Source)
+at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
 at Page.Pim_page.Chechk_Box(Pim_page.java:123)
 at Test.Pim_Test.enterId_search_text_box(Pim_Test.java:56)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -97,6 +97,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterId_search_text_box -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Test.Pim_Test@75d3a5e0]" started-at="2024-05-31T10:45:19 IST" name="teardown" finished-at="2024-05-31T10:45:20 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- Test.Pim_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
